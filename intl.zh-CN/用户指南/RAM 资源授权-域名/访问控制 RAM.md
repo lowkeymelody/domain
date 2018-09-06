@@ -34,18 +34,18 @@
       "Statement": [
         {
           "Action": [
-          " domain: DomainInfoModification ",
-          " domain: DomainTransferInOperation",
-          " domain:DnsModification ",
-          " domain:SecuritySetting ",
+          "domain:DomainInfoModification",
+          "domain:DomainTransferInOperation",
+          "domain:DnsModification",
+          "domain:SecuritySetting",
           ]
           "Resource": "acs:domain:*:*:domain/example.com",
           "Effect": "Allow"
         },
         {
           "Action":
-          " domain: QueryCommonInfo ",
-          "Resource": "acs: domain:*:*:*",
+          "domain:QueryCommonInfo",
+          "Resource": "acs:domain:*:*:*",
           "Effect": "Allow"
         }
       ]
@@ -70,5 +70,5 @@
     ```
 
 
-更多关于访问控制 RAM 的介绍，请参考 [RAM 产品文档](https://help.aliyun.com/document_detail/28627.html)。
+更多关于访问控制 RAM 的介绍，请参考 [RAM 产品文档](https://www.alibabacloud.com/help/zh/product/28625.htm)。
 
