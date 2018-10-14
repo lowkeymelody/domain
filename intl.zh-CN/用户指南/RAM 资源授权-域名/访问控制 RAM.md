@@ -38,13 +38,20 @@
           "domain:DomainTransferInOperation",
           "domain:DnsModification",
           "domain:SecuritySetting",
-          ]
+          "domain:RealNameVerificationOperation",
+          "domain:DomainTransferOutOperation",
+          "domain:DnsHostModification",
+          "domain:RegistrantProfileOperation",
+          "domain:DomainGroupOperation",
+          "domain:EmailVerificationOperation",
+          "domain:DomainInfoModification"
+          ],
           "Resource": "acs:domain:*:*:domain/example.com",
           "Effect": "Allow"
         },
         {
           "Action":
-          "domain:QueryCommonInfo",
+          "domain:Query*",
           "Resource": "acs:domain:*:*:*",
           "Effect": "Allow"
         }
@@ -60,9 +67,9 @@
        "Statement": [
          {
            "Action": [
-             "domain:Query*",
+             "domain:Query*"
            ],
-           "Resource": "acs:domain:*:*:domain/*",
+           "Resource": "acs:domain:*:*:*",
            "Effect": "Allow"
          }
         ]
