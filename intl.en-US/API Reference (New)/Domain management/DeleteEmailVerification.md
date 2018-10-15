@@ -4,7 +4,7 @@ The DeleteEmailVerification API deletes verified email addresses. After a verifi
 
 ## Request parameters {#section_jtz_h4l_c2b .section}
 
-For more information about public request parameters, see [Public parameters](intl.en-US/API Reference (New)/Calling method/Public parameters.md#).
+For more information about public request parameters, see [public parameters](reseller.en-US/API Reference (New)/Calling method/Public parameters.md#).
 
 |Parameter|Type|Required|Description|
 |:--------|:---|:-------|:----------|
