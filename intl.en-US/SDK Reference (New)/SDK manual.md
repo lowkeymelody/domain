@@ -2,10 +2,10 @@
 
 Currently, Alibaba Cloud provides SDKs in four languages: Java, Python, PHP, and C\#. The following links provide the download, installation, and usage guide for each language:
 
--   Java
--   Python
--   PHP
--   C\#
+-   [Java](https://www.alibabacloud.com/support/developer-resources)
+-   [Python](https://www.alibabacloud.com/support/developer-resources)
+-   [PHP](https://www.alibabacloud.com/support/developer-resources)
+-   [C\#](https://www.alibabacloud.com/support/developer-resources)
 
 If you want SDKs in other languages, select a third-party SDK service.
 
