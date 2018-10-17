@@ -14,7 +14,7 @@ This service protects your privacy, reduces the number of spams, and minimizes p
 
 To set the domain name proxy protection, follow these steps:
 
-1.  Log on to the [Domains console](https://dc.console.aliyun.com/#/domain/list).
+1.  Log on to the [Domains console](https://dc.console.aliyun.com/).
 2.  Locate the domain name that you want to protect, and click **Manage**.
 3.  On the Basic Information page, from the left-side navigation pane click **Proxy and Security**.
 4.  Enable or disable the **Domain name proxy service**.
@@ -23,9 +23,9 @@ To set the domain name proxy protection, follow these steps:
 
 Before proxy protection is enabled, your personal information is displayed.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14345/15397553415959_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14345/15397554595959_en-US.png)
 
 After proxy protection is enabled, your personal information is not displayed.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14345/15397553415960_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14345/15397554595960_en-US.png)
 
