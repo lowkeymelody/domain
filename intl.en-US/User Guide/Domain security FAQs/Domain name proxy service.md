@@ -23,9 +23,9 @@ To set the domain name proxy protection, follow these steps:
 
 Before proxy protection is enabled, your personal information is displayed.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14345/5959_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14345/15397553415959_en-US.png)
 
 After proxy protection is enabled, your personal information is not displayed.
 
-![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14345/5960_en-US.png)
+![](http://static-aliyun-doc.oss-cn-hangzhou.aliyuncs.com/assets/img/14345/15397553415960_en-US.png)
 
