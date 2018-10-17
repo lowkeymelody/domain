@@ -1,6 +1,6 @@
 # Domain name management overview {#concept_kcv_gzv_12b .concept}
 
-Once you register a domain name from Alibaba Cloud or transfer your own domain name to Alibaba Cloud Domain service, you can always go to the [Alibaba Cloud Domain console](https://dc.console.aliyun.com/) to perform management on these domain names. The functionality mainly involves maintaining domain name information and resolution, changing security settings, and viewing operation logs.
+Once you register a domain name from Alibaba Cloud or transfer your own domain name to Alibaba Cloud Domain service, you can always go to the [Alibaba Cloud Domain console](https://partners-intl.console.aliyun.com/#/domain) to perform management on these domain names. The functionality mainly involves maintaining domain name information and resolution, changing security settings, and viewing operation logs.
 
 ## Domain name maintenance {#section_omb_4zv_12b .section}
 
