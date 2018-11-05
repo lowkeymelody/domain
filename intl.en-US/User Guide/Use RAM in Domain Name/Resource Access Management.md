@@ -17,9 +17,9 @@ RAM can help you manage user permissions and control user access to specified re
     {
       "Statement": [
         {
-     "Action": "domain:*",
-     "Effect": "Allow",
-     "Resource": "*"
+          "Action": "domain:*",
+          "Effect": "Allow",
+          "Resource": "*"
         }
       ],
       "Version": "1"
@@ -34,18 +34,25 @@ RAM can help you manage user permissions and control user access to specified re
       "Statement": [
         {
           "Action": [
-          " domain: DomainInfoModification ",
-          " domain: DomainTransferInOperation",
-          " domain:DnsModification ",
-          " domain:SecuritySetting ",
-          ]
+          "domain:DomainInfoModification",
+          "domain:DomainTransferInOperation",
+          "domain:DnsModification",
+          "domain:SecuritySetting",
+          "domain:RealNameVerificationOperation",
+          "domain:DomainTransferOutOperation",
+          "domain:DnsHostModification",
+          "domain:RegistrantProfileOperation",
+          "domain:DomainGroupOperation",
+          "domain:EmailVerificationOperation",
+          "domain:DomainInfoModification"
+          ],
           "Resource": "acs:domain:*:*:domain/example.com",
           "Effect": "Allow"
         },
         {
           "Action":
-          " domain: QueryCommonInfo ",
-          "Resource": "acs: domain:*:*:*",
+          "domain:Query*",
+          "Resource": "acs:domain:*:*:*",
           "Effect": "Allow"
         }
       ]
@@ -60,15 +67,13 @@ RAM can help you manage user permissions and control user access to specified re
        "Statement": [
          {
            "Action": [
-             "domain:Query*",
+             "domain:Query*"
            ],
-           "Resource": "acs:domain:*:*:domain/*",
+           "Resource": "acs:domain:*:*:*",
            "Effect": "Allow"
          }
         ]
     }
     ```
 
-
-For more information about RAM, see [RAM product documentation](https://www.alibabacloud.com/help/zh/product/28625.htm).
 
